@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+main{
+  margin-bottom: 300px;
+}
+
+.form-css{
+  margin-top: 30px;
+}
+
+.button-css{
+  width: 450px;
+  height: 45px;
+}
+
+.alerta-css{
+  margin: 15px;
+}
+
+.listado-css{
+  margin-top: 30px;
+}
+
+.buscador-css{
+  width: 1000px;
+  height: 40px;
+
+}
+
+.lista-css{
+  width: 1000px;
+}
+
+
+
+
+
