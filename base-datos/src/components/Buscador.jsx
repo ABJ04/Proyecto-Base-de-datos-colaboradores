@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Buscador = ({ data, setDataFilter }) => {
   const inputLook = (e) => {
@@ -17,13 +17,13 @@ const Buscador = ({ data, setDataFilter }) => {
   };
 
   return (
-    <div className='buscador col col-md-6'>
+    <div className="buscador col col-md-6">
       <input
-        type='text'
-        name='buscador'
-        id='buscador'
-        placeholder='Buscar un Usuario'
-        className='form-control mb-3 buscador-css'
+        type="text"
+        name="buscador"
+        id="buscador"
+        placeholder="Buscar un Usuario"
+        className="form-control mb-3 buscador-css"
         onChange={inputLook}
       />
     </div>
