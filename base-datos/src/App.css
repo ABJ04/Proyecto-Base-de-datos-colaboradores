@@ -5,38 +5,66 @@
   text-align: center;
 }
 
-main{
+main {
   margin-bottom: 300px;
 }
 
-.form-css{
+.form-css {
   margin-top: 30px;
 }
 
-.button-css{
+.button-css {
   width: 450px;
   height: 45px;
 }
 
-.alerta-css{
+.alerta-css {
   margin: 15px;
 }
 
-.listado-css{
+.listado-css {
   margin-top: 30px;
 }
 
-.buscador-css{
+.buscador-css {
   width: 1000px;
   height: 40px;
-
 }
 
-.lista-css{
+.lista-css {
   width: 1000px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-css {
+    order: 3;
+  }
+  .form-css {
+    width: 320px;
+    order: 3;
+   
+  }
+  .listado-css {
+    order: 1;
+  }
+  .button-css {
+    width: 320px;
+  }
+  .formulario-container input::placeholder {
+    text-align: center;
+  }
 
+  .buscador-css {
+    width: 320px;
+    height: 40px;
+  }
 
-
-
+  .table-responsive {
+    max-width: 320px;
+  }
+}
